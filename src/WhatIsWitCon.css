@@ -39,7 +39,7 @@
 .image-box img {
   width: 100%;
   max-width: 50vw;
-  max-height: 50vh;
+  max-height: 45vh;
   border-radius: 10px;
   object-fit: cover;
 }
