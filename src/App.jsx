@@ -19,7 +19,8 @@ function App() {
             </a>
           </div>
       </div>
-
+      
+      <Layout>
       <div>
       <Hero></Hero>
     </div>
@@ -32,7 +33,7 @@ function App() {
         <FAQs></FAQs>
       </div>
 
-      <Layout>
+      
         <Homepage></Homepage>
       </Layout>
 
