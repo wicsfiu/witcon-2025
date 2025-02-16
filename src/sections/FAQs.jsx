@@ -20,7 +20,7 @@ const FAQs = () => {
     ), },
     { question: "When and where will the event be held?", answer: (
       <>
-        When: March 28th, 2024, from 9AM to 7PM <br/>
+        When: March 28th, 2025, from 9AM to 7PM <br/>
         Where: Graham Center Ballrooms <br/><br/>
                10955 SW 15th St <br/>
                Miami, FL 33199 <br/>
@@ -65,6 +65,7 @@ const FAQs = () => {
     </>
     ),
   },
+  { question: "Where can I update my resume?", answer: "Please check your email inbox for your registration confirmation email. In there will be a link to update/submit your resume!"},
     { question: "Do I need experience to participate?", answer: "Not at all! You do not have to have any experience in technology or be a tech major to attend and enjoy WiTCON. WiTCON will have engaging workshops and empowering panels that will be beneficial for all future professionals interested in learning!" },
     { question: "Do I have to stay at the event the entire time?", answer: "You are free to attend the parts of the event that most interest you. But make sure to arrive by 1 pm to secure your spot! After 1 pm, we will open up to attendees on the waitlist and we cannot guarantee you entrance."},
     { question: "What do I need to bring to the conference?", answer: (
@@ -79,7 +80,7 @@ const FAQs = () => {
     ),},
     { question: "Who is organizing WiTCON25?", answer: (
       <>
-        WiTCON 2024 is organized by{' '}
+        WiTCON 2025 is organized by{' '}
         <a href="https://wics.cs.fiu.edu/" target="_blank" rel="noopener noreferrer" className="text-purple-500 hover:text-pink-400">
           Women in Computer Science&nbsp;
         </a>

@@ -15,21 +15,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+
+html, body {
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.blur {
-  filter: blur(100px);
+.main-content{
+  padding-top: 40px;
 }
 
-@layer utilities {
-  .animation-delay-2000 {
-    animation-delay: 2s;
-  }
-  .animation-delay-4000 {
-    animation-delay: 4s;
-  }
+.blur {
+  filter: blur(120px);
 }
