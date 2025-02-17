@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Subtitle from "../components/text/Subtitle";
 import Text from "../components/text/Text";
+import "../FAQs.css"; // Adjust the path if needed
+
 
 const FAQs = () => {
   const faqs = [
@@ -8,19 +10,14 @@ const FAQs = () => {
     { question: "Where can I register?", answer: (
       <>
         You can register for the event by clicking on the following link:{" "}
-        <a
-          href="https://lu.ma/hwyplw5v"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-purple-400 underline hover:text-pink-300"
-        >
+        <a href="https://lu.ma/hwyplw5v" target="_blank" rel="noopener noreferrer" className="faq-link">
           https://lu.ma/hwyplw5v
         </a>
       </>
     ), },
     { question: "When and where will the event be held?", answer: (
       <>
-        When: March 28th, 2024, from 9AM to 7PM <br/>
+        When: March 28th, 2025, from 9AM to 7PM <br/>
         Where: Graham Center Ballrooms <br/><br/>
                10955 SW 15th St <br/>
                Miami, FL 33199 <br/>
@@ -31,33 +28,18 @@ const FAQs = () => {
     { question: "Where do I park?", answer: (
       <>
         Not an FIU Student? Email us to register for parking at&nbsp;
-      <a
-        href="mailto:wics@fiu.edu"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-purple-500 hover:text-pink-400"
-      >
+      <a href="mailto:wics@fiu.edu" target="_blank" rel="noopener noreferrer" className="faq-link">
       wics@fiu.edu
       </a>
       <br /> <br/>
-      <a
-        href="https://maps.app.goo.gl/PdyrwhGaaGSaEqrX8?g_st=ic"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-purple-500 hover:text-pink-400"
-      >
+      <a href="https://maps.app.goo.gl/PdyrwhGaaGSaEqrX8?g_st=ic" target="_blank" rel="noopener noreferrer" className="faq-link">
       Blue Parking Garage
       </a>
       <br />
       10880 SW 16 ST, Miami, FL 33174
       <br />
       <br />
-      <a
-        href="https://maps.app.goo.gl/ZvGJMHQcLbBnGVQL9?g_st=ic"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-purple-500 hover:text-pink-400"
-      >
+      <a href="https://maps.app.goo.gl/ZvGJMHQcLbBnGVQL9?g_st=ic" target="_blank" rel="noopener noreferrer" className="faq-link">
       Gold Parking Garage
       </a>
       <br />
@@ -65,6 +47,7 @@ const FAQs = () => {
     </>
     ),
   },
+  { question: "Where can I update my resume?", answer: "Please check your email inbox for your registration confirmation email. In there will be a link to update/submit your resume!"},
     { question: "Do I need experience to participate?", answer: "Not at all! You do not have to have any experience in technology or be a tech major to attend and enjoy WiTCON. WiTCON will have engaging workshops and empowering panels that will be beneficial for all future professionals interested in learning!" },
     { question: "Do I have to stay at the event the entire time?", answer: "You are free to attend the parts of the event that most interest you. But make sure to arrive by 1 pm to secure your spot! After 1 pm, we will open up to attendees on the waitlist and we cannot guarantee you entrance."},
     { question: "What do I need to bring to the conference?", answer: (
@@ -79,8 +62,8 @@ const FAQs = () => {
     ),},
     { question: "Who is organizing WiTCON25?", answer: (
       <>
-        WiTCON 2024 is organized by{' '}
-        <a href="https://wics.cs.fiu.edu/" target="_blank" rel="noopener noreferrer" className="text-purple-500 hover:text-pink-400">
+        WiTCON 2025 is organized by{' '}
+        <a href="https://wics.cs.fiu.edu/" target="_blank" rel="noopener noreferrer" className="faq-link">
           Women in Computer Science&nbsp;
         </a>
         from Florida International University.
@@ -89,7 +72,7 @@ const FAQs = () => {
     { question: "How can I stay updated about WiTCON?", answer: (
       <>
         For the latest updates, keep an eye on your email after registering, and follow our social media!{' '}
-        <a href="https://linktr.ee/wicsfiu" target="_blank" rel="noopener noreferrer" className="text-purple-500 hover:text-pink-400">
+        <a href="https://linktr.ee/wicsfiu" target="_blank" rel="noopener noreferrer" className="faq-link">
           https://linktr.ee/wicsfiu
         </a>
       </>
@@ -103,25 +86,21 @@ const FAQs = () => {
   };
 
   return (
-    <section className="py-12">
-      <div className="max-w-4xl mx-auto">
-        <Subtitle className="text-3xl font-bold text-center mb-8 text-white">FAQs</Subtitle>
+    <section className="faqs-section">
+      <div className="faqs-container">
+        <Subtitle className="text-3xl font-bold text-center mb-8 text-white">
+          FAQs
+        </Subtitle>
+        <br />
         <div className="space-y-4">
           {faqs.map((faq, index) => (
-            <div
-              key={index}
-              className={`p-4 rounded-lg transition-all duration-300 cursor-pointer`}
-              style={{ backgroundColor: "rgba(217, 217, 217, 0.2)", transition: "background-color 0.3s ease" }}
-              onMouseOver={(e) => (e.currentTarget.style.backgroundColor = "rgba(217, 217, 217, 0.5)")}
-              onMouseOut={(e) => (e.currentTarget.style.backgroundColor = "rgba(217, 217, 217, 0.2)")}
-              onClick={() => toggleFAQ(index)}
-            >
+            <div key={index} className="faq-item" onClick={() => toggleFAQ(index)}>
               <div className="flex justify-between items-center">
-                <Text className="text-lg font-medium text-white">{faq.question}</Text>
+                <Text className="faq-question">{faq.question}</Text>
                 <span className="text-xl text-white">{openIndex === index ? "−" : "+"}</span>
               </div>
               {openIndex === index && (
-                <Text className="mt-2 text-gray-200">{faq.answer}</Text>
+                <Text className="faq-answer">{faq.answer}</Text>
               )}
             </div>
           ))}
@@ -132,4 +111,5 @@ const FAQs = () => {
 };
 
 export default FAQs;
+
 

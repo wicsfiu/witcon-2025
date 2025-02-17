@@ -2,24 +2,30 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
-import { EffectCoverflow } from "swiper/modules"; // Removed Navigation & Pagination
+import { Autoplay, EffectCoverflow } from "swiper/modules"; // Removed Navigation & Pagination
 import "../WhatIsWitCon.css";
 import slide1 from "../assets/WicsPic1.jpg";
 import slide2 from "../assets/WicsPic3.jpg";
 import slide3 from "../assets/WicsPic5.jpg";
 import slide4 from "../assets/WicsPic6.jpg";
 import slide5 from "../assets/WicsPic7.jpg";
+import slide6 from "../assets/WicsPic8.jpg";
 
-import heroComputer from "../assets/WicsPic4.jpg";
+import WicsPanel from "../assets/WicsPanel.png";
+import Subtitle from "../components/text/Subtitle";
 
 const WhatIsWitCon = () => {
-  const slides = [slide1, slide2, slide3, slide4, slide5];
+  const slides = [slide1, slide2, slide3, slide4, slide5, slide6];
 
   return (
     <section className="witcon-section">
       <div className="content-container">
+      <div className="image-box">
+          <img src={WicsPanel} alt="Panel of women in computing" />
+        </div>
+
         <div className="text-box">
-          <h2>What is WiTCON?</h2>
+          <Subtitle>What is WiTCON?</Subtitle>
           <p>
             WiTCON 2025 is the signature Women in Technology Conference at
             Florida International University.
@@ -32,10 +38,6 @@ const WhatIsWitCon = () => {
             Modesto Maidique Campus from 9AM - 7PM.
           </p>
         </div>
-
-        <div className="image-box">
-          <img src={heroComputer} alt="hero Computer" />
-        </div>
       </div>
 
       {/* Swiper Carousel */}
@@ -44,9 +46,14 @@ const WhatIsWitCon = () => {
           effect={"coverflow"}
           grabCursor={true}
           centeredSlides={true}
-          slidesPerView={5}
+          slidesPerView={2}
           initialSlide={3}
           slideToClickedSlide={true} 
+          loop={true}
+          speed={10000}
+          autoplay={{
+            delay:500
+          }}
           
           coverflowEffect={{
             rotate: 0,
@@ -56,8 +63,7 @@ const WhatIsWitCon = () => {
             modifier: 1,
             slideShadows: false,
           }}
-          modules={[EffectCoverflow]} 
-          loop={true} 
+          modules={[EffectCoverflow, Autoplay]} 
         >
           {slides.map((image, index) => (
             <SwiperSlide key={index}>
