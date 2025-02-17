@@ -1,15 +1,9 @@
-import Homepage from "./pages/Homepage";
-import Layout from "./Layout";
-import "./navBar.css";
-import WhatIsWitcon from "./sections/WhatIsWitCon";
-
 import Hero from "./sections/Hero.jsx";
 import Homepage from './pages/Homepage'
 import Layout from './Layout'
 import './navBar.css';
 import WhatIsWitcon from './sections/WhatIsWitCon';
 import FAQs from './sections/FAQs';
-import Hero from './sections/Hero.jsx';
 import Instagram from './assets/Instagram.png';
 import LinkedIn from './assets/Linkedin.png';
 import Twitter from './assets/Twitter.png';
@@ -47,18 +41,9 @@ function App() {
           <Homepage />
         </div>
       <div>
-      <Hero></Hero>
-    </div>
-
-      <div className="WhatIsWitCon text-base text-white font-[Pixelify_Sans]">
-        <WhatIsWitcon></WhatIsWitcon>
-      </div>
       
-      <div>
-        <FAQs></FAQs>
-      </div>
-
-        <Homepage></Homepage>
+    </div>
+    
       </Layout>
 
       <div className='footer-container text-base text-white font-[Pixelify_Sans]'>
