@@ -33,6 +33,8 @@ const Hero = () => {
         />
       </div>
     </section>
+
+
   );
 };
 

@@ -2,7 +2,7 @@ import Homepage from "./pages/Homepage";
 import Layout from "./Layout";
 import "./navBar.css";
 import WhatIsWitcon from "./sections/WhatIsWitCon";
-import FAQs from "./sections/FAQs";
+
 import Hero from "./sections/Hero.jsx";
 
 function App() {
@@ -33,9 +33,6 @@ function App() {
           <Hero />
           <div className="WhatIsWitCon text-base text-white font-[Pixelify_Sans]">
             <WhatIsWitcon />
-          </div>
-          <div id="faq-section">
-            <FAQs/>
           </div>
           <Homepage />
         </div>
