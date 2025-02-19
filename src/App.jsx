@@ -2,6 +2,7 @@ import Hero from "./sections/Hero.jsx";
 import Homepage from './pages/Homepage'
 import Layout from './Layout'
 import './navBar.css';
+import Countdown from './sections/Countdown.jsx';
 import WhatIsWitcon from './sections/WhatIsWitCon';
 import FAQs from './sections/FAQs';
 import Instagram from './assets/Instagram.png';
@@ -35,6 +36,7 @@ function App() {
       <Layout>
         <div id="main-content" className="main-content">
           <Hero />
+          <div className="Countdown text-base text-white font-[Pixelify_Sans]"> <Countdown/></div>
           <div className="WhatIsWitCon text-base text-white font-[Pixelify_Sans]">
             <WhatIsWitcon />
           </div>
