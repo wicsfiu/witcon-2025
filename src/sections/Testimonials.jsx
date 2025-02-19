@@ -26,7 +26,7 @@ export default function TestimonialCarousel() {
             <div className="w-full max-w-30xl align-center mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-10 p-4">
                 {testimonials.map((testimonial, index) => (
                     <div key={index}
-                         className="p-6 bg-white/10 bg-opacity-70 shadow-lg rounded-xl flex flex-col justify-center items-center space-y-4 hover:scale-105 transition-transform duration-300">
+                         className="p-6 bg-white/10 bg-opacity-70 shadow-lg rounded-xl flex flex-col justify-center text-center items-center space-y-4 hover:scale-105 transition-transform duration-300">
                         <Text className="text-lg text-black-800 italic">"{testimonial.quote}"</Text>
                         <h3 className="mt-4 text-xl font-semibold">{testimonial.name}</h3>
                         <Text className="text-black-600">{testimonial.title}</Text>
