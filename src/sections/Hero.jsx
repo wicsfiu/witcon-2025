@@ -6,15 +6,15 @@ import Text from "../components/text/Text";
 
 const Hero = () => {
   return (
-    <section className="mb-10 mt-10 grid grid-cols-2 items-center gap-y-10 max-xl:grid-cols-1 max-w-screen-2xl mx-auto px-4 pt-6">
+    <section className="my-10 grid grid-cols-2 items-center gap-y-10 max-xl:grid-cols-1 w-[90%] max-w-screen-2xl mx-auto px-6 md:px-14 sm:pt-2 md:pt-4 lg:pt-6 xl:pt-8">
       <div className="flex flex-col justify-center">
         <Subtitle>WOMEN IN TECHNOLOGY CONFERENCE</Subtitle>
-        <div className="flex space-x-3">
+        <div className="flex gap-x-3">
           <Text>GRAHAM CENTER</Text>
           <Text>03/28/2025</Text>
           <Text>9AM-7PM</Text>
         </div>
-        <Title>
+        <Title className="text-7xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
           WiTCON <br /> 2025
         </Title>
         <Text>Florida’s largest student-led women in tech conference</Text>
