@@ -5,6 +5,7 @@ import './navBar.css';
 import Countdown from './sections/Countdown.jsx';
 import WhatIsWitcon from './sections/WhatIsWitCon';
 import FAQs from './sections/FAQs';
+import Testimonials from './sections/Testimonials.jsx';
 import Instagram from './assets/Instagram.png';
 import LinkedIn from './assets/Linkedin.png';
 import Twitter from './assets/Twitter.png';
@@ -40,6 +41,7 @@ function App() {
           <div className="WhatIsWitCon text-base text-white font-[Pixelify_Sans]">
             <WhatIsWitcon />
           </div>
+          <div className="Testimonials text-base text-white font-[Pixelify_sans]"> <Testimonials/></div>
           <Homepage />
         </div>
       <div>
