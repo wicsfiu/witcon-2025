@@ -1,17 +1,15 @@
-import Hero from "./sections/Hero.jsx";
-import Homepage from './pages/Homepage'
-import Layout from './Layout'
-import './navBar.css';
-import Countdown from './sections/Countdown.jsx';
-import WhatIsWitcon from './sections/WhatIsWitCon';
-import FAQs from './sections/FAQs';
-import Testimonials from './sections/Testimonials.jsx';
-import Instagram from './assets/Instagram.png';
-import LinkedIn from './assets/Linkedin.png';
-import Twitter from './assets/Twitter.png';
-import Facebook from './assets/Facebook.png';
-import Navbar from "./sections/Navbar.jsx";
-import Navigation from "./sections/Navigation.jsx";
+import Hero from "../sections/Hero.jsx";
+import Homepage from '../pages/Homepage'
+import Layout from '../Layout'
+import '../navBar.css';
+import Countdown from '../sections/Countdown.jsx';
+import WhatIsWitcon from '../sections/WhatIsWitCon';
+import Testimonials from '../sections/Testimonials.jsx';
+import Instagram from '../assets/Instagram.png';
+import LinkedIn from '../assets/Linkedin.png';
+import Twitter from '../assets/Twitter.png';
+import Facebook from '../assets/Facebook.png';
+
 
 function App() {
   return (
