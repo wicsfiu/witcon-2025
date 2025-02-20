@@ -6,7 +6,9 @@ import FAQs from "../sections/FAQs";
 const Homepage = () => {
   return (
     <>
-      <FAQs/> 
+     <div id="faq-section">
+        <FAQs />
+      </div>
       
       <div className="flex flex-col items-center justify-center text-center">
         <Subtitle>Sponsors and schedule reveal coming soon!</Subtitle>
