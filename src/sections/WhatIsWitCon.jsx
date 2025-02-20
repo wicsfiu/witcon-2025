@@ -33,8 +33,8 @@ const WhatIsWitCon = () => {
           <br />
           <p>
             Join us for a full-day of learning, networking, and empowerment of
-            underrepresented talent in tech. The event is scheduled for March
-            XXth, 2025, and will be held at the Graham Center Ballrooms at FIU
+            underrepresented local talent in tech. The event is scheduled for March
+            28th, 2025, and will be held at the Graham Center Ballrooms at FIU
             Modesto Maidique Campus from 9AM - 7PM.
           </p>
         </div>
