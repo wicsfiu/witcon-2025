@@ -4,13 +4,23 @@ import Text from "../components/text/Text";
 
 const testimonials = [
     {
+        name: "Jesse Cline",
+        title: "UKG, Sponsor",
+        quote: "I look forward to WiTCON all year! There is no other space the matches the energy in the room at WiTCON. It is truly an inspiration to see these women creating community and building space to uplift and empower each other.",
+    },
+    {
         name: "Karletty Medina",
         title: "CodePath, Community Partner",
         quote: "WiTCON offers an incredible opportunity to connect with students and expose them to what the tech industry seeks. As an organization committed to reprogramming CS education, CodePath values the chance to engage directly with students while collaborating with the amazing WiCS Team. This event plays a crucial role in bringing students together and bridging the gap between education and industry, and we’re grateful to be part of it!",
     },
     {
         name: "Keren Rivera",
-        title: "Attendee, FIU Student",
+        title: "FIU Student, Attendee",
+        quote: "I’ve been going for two years and I love the energy this event brings. The participants are kind, the opportunities are abundant, and the workshops are incredibly valuable!",
+    },
+    {
+        name: "Agoritza Polyzou",
+        title: "FIU Professor, Advisor",
         quote: "I’ve been going for two years and I love the energy this event brings. The participants are kind, the opportunities are abundant, and the workshops are incredibly valuable!",
     },
 ];
