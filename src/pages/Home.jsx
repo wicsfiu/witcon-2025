@@ -5,6 +5,7 @@ import '../navBar.css';
 import Countdown from '../sections/Countdown.jsx';
 import WhatIsWitcon from '../sections/WhatIsWitCon';
 import Testimonials from '../sections/Testimonials.jsx';
+import Sponsors from '../sections/Sponsors.jsx';
 import Instagram from '../assets/Instagram.png';
 import LinkedIn from '../assets/Linkedin.png';
 import Twitter from '../assets/Twitter.png';
@@ -36,18 +37,19 @@ function App() {
 
       <Layout>
         <div id="main-content" className="main-content">
-          <Hero />
-          <div className="Countdown text-base text-white font-[Pixelify_Sans]"> <Countdown/></div>
+          <Hero/>
+          <div className="Countdown text-base text-white font-[Pixelify_Sans]"><Countdown/></div>
           <div className="WhatIsWitCon text-base text-white font-[Pixelify_Sans]">
-            <WhatIsWitcon />
+            <WhatIsWitcon/>
           </div>
-          <div className="Testimonials text-base text-white font-[Pixelify_sans]"> <Testimonials/></div>
-          <Homepage />
+          <div className="Testimonials text-base text-white font-[Pixelify_sans]"><Testimonials/></div>
+          <div className="Sponsors text-base text-white font-[Pixelify_sans]"><Sponsors/></div>
+          <Homepage/>
         </div>
-      <div>
-      
-    </div>
-    
+        <div>
+
+        </div>
+
       </Layout>
 
       <div className='footer-container text-base text-white font-[Pixelify_Sans]'>
