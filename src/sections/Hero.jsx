@@ -10,9 +10,9 @@ const Hero = () => {
       <div className="flex flex-col justify-center">
         <Subtitle>WOMEN IN TECHNOLOGY CONFERENCE</Subtitle>
         <div className="flex gap-x-3">
-          <Text>GRAHAM CENTER</Text>
-          <Text>03/28/2025</Text>
-          <Text>9AM-7PM</Text>
+          <Text className="font-[Silkscreen]">GRAHAM CENTER</Text>
+          <Text className="font-[Silkscreen]">03/28/2025</Text>
+          <Text className="font-[Silkscreen]">9AM-7PM</Text>
         </div>
         <Title className="text-7xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
           WiTCON <br /> 2025
