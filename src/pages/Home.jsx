@@ -59,7 +59,6 @@ function App() {
         <a href="https://www.instagram.com/wicsfiu/?hl=en"><img className='icon-img' src={Instagram} alt="Instagram" /></a>
         <a href="https://www.linkedin.com/company/wicsatfiu/"><img className='icon-img' src={LinkedIn} alt="LinkedIn" /></a>
         <a href="https://x.com/WICSFIU"><img className='icon-img' src={Twitter} alt="Twitter" /></a>
-        <a href="https://www.facebook.com/wicysfiu/"><img className='icon-img' src={Facebook} alt="Facebook" /></a>
           </div>
         </div>
       </div>
