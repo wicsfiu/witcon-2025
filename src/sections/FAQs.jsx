@@ -27,7 +27,7 @@ const FAQs = () => {
   },
     { question: "Where do I park?", answer: (
       <>
-        Not an FIU Student? Email us to register for parking at&nbsp;
+      Not an FIU Student? Email us to register for parking at&nbsp;
       <a href="mailto:wics@fiu.edu" target="_blank" rel="noopener noreferrer" className="faq-link">
       wics@fiu.edu
       </a>
@@ -43,7 +43,8 @@ const FAQs = () => {
       Gold Parking Garage
       </a>
       <br />
-      10720 SW 16 ST, Miami, FL 33165
+      10720 SW 16 ST, Miami, FL 33165 <br></br>
+      <br></br>Disclaimer: you will need to register for free parking before arriving to FIU. Parking registrations after the event will not be accepted. WiCS FIU is not responsible to parking reimbursement outside of the following allowed garages
     </>
     ),
   },
