@@ -18,9 +18,7 @@ function App() {
           <a href="#main-content" className="nav-link">
             Home
           </a>
-          <a href="#faq-section" className="nav-link">
-            FAQ
-          </a>
+          <Link to="/faq-section" className="nav-link">FAQ</Link>
           <Link to ="/team" className="nav-link">
             Team
           </Link>

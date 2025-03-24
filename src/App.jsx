@@ -4,7 +4,6 @@ import Navigation from "./sections/Navigation.jsx";
 function App() {
   return (
     <>
-        <Navbar />
         <Navigation/>
   
     </>

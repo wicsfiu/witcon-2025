@@ -87,8 +87,8 @@ const FAQs = () => {
   };
 
   return (
-    <section className="faqs-section">
-      <div className="faqs-container">
+    <section className="faq-section">
+      <div className="faq-container">
         <Subtitle className="text-3xl font-bold text-center mb-8 text-white">
           FAQs
         </Subtitle>

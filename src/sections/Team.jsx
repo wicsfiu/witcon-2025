@@ -54,6 +54,7 @@ const witconTeam = [
   { role: "WiTCON Treasurer", name: "Helen Gomez", image: WitconTreasurerImg },
   { role: "WiTCON Industry Relations", name: "Gillian Garcia", image: WitconIndustry2Img },
   { role: "WiTCON WebDev", name: "Huong Huynh", image: WitconWebDevImg },
+  { role: "WiTCON Tech Lead", name: "Agatha Gonzalez", image: WICsTechLead1Img },
 ];
 
 const wicsTeam = [
@@ -74,7 +75,6 @@ const wicsTeam = [
   { role: "WiCs Industry Relations", name: "Kemely Alfonso", image: WICsIndustryRelations2Img },
   { role: "WiCs Comms Chair", name: "Manar Alhamad", image: WICsCommsChairImg },
   { role: "WiCs Faculty Advisor", name: "Dr. Agoritsa Polyzou ", image: WICsFacultyAdvisorImg  },
-  { role: "WiCs Tech Lead", name: "Agatha Gonzalez", image: WICsTechLead1Img },
   { role: "WiCs Tech Lead", name: "Jernai Bennett", image: WICsTechLead2Img },
   { role: "WiCs Outreach Chair", name: "Bielky Ruiz", image: WICsOutreachChairImg },
   { role: "WiCs Alumni Advisor", name: "Mareline Ramirez", image: WICsAlumniAdvisorImg },
