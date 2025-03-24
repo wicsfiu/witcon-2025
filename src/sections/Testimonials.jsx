@@ -14,7 +14,7 @@ const testimonials = [
         quote: "WiTCON offers an incredible opportunity to connect with students and expose them to what the tech industry seeks. As an organization committed to reprogramming CS education, CodePath values the chance to engage directly with students while collaborating with the amazing WiCS Team. This event plays a crucial role in bringing students together and bridging the gap between education and industry, and we’re grateful to be part of it!",
     },
     {
-        name: "Agoritza Polyzou",
+        name: "Agoritsa Polyzou",
         title: "FIU Professor, Advisor",
         quote: "Each year, WiTCON has been an incredible experience—filled with inspiring sessions, valuable networking, and unforgettable moments. This event is open to all, empowering all, and fostering a community where we can thrive, connect, and grow together!",
     },

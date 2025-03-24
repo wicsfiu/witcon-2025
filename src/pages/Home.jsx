@@ -6,10 +6,8 @@ import Countdown from '../sections/Countdown.jsx';
 import WhatIsWitcon from '../sections/WhatIsWitCon';
 import Testimonials from '../sections/Testimonials.jsx';
 import Sponsors from '../sections/Sponsors.jsx';
-import Instagram from '../assets/Instagram.png';
-import LinkedIn from '../assets/Linkedin.png';
-import Twitter from '../assets/Twitter.png';
-import Facebook from '../assets/Facebook.png';
+import Footer from "../sections/Footer.jsx";
+import { Link } from "react-router-dom";
 
 
 function App() {
@@ -23,6 +21,9 @@ function App() {
           <a href="#faq-section" className="nav-link">
             FAQ
           </a>
+          <Link to ="/team" className="nav-link">
+            Team
+          </Link>
           <a
             href="https://airtable.com/appE94lSN4LzuVA8T/pag9913jUMrtO3XF1/form"
             className="nav-link"
@@ -51,17 +52,8 @@ function App() {
         </div>
 
       </Layout>
-
-      <div className='footer-container text-base text-white font-[Pixelify_Sans]'>
-        <div className="footer-content">
-        <a href="" className="footer-link">Stay Up To Date with our News and Notifications</a>
-        <div className="social-icons">
-        <a href="https://www.instagram.com/wicsfiu/?hl=en"><img className='icon-img' src={Instagram} alt="Instagram" /></a>
-        <a href="https://www.linkedin.com/company/wicsatfiu/"><img className='icon-img' src={LinkedIn} alt="LinkedIn" /></a>
-        <a href="https://x.com/WICSFIU"><img className='icon-img' src={Twitter} alt="Twitter" /></a>
-          </div>
-        </div>
-      </div>
+        <Footer></Footer>
+      
       
     </>
   );
